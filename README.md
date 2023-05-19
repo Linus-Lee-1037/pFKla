@@ -59,6 +59,6 @@ The main requirements are listed below:
     
 * models 
 
-    The model of iFKla's 11 DNNs after transfer-learning and the final integrated_DNN.
+    The models of iFKla's 11 DNNs after transfer-learning and the final integrated_DNN.
       
   
