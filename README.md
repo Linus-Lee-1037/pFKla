@@ -31,7 +31,7 @@ The main requirements are listed below:
 
 * transformer_feature.py
 
-    The code is used for encoding an LSP(10, 10) peptide into a 128D feature vector which is also named transformer. 
+    The code is utilizing the transformer trained above for encoding an LSP(10, 10) peptide into a 128D feature vector which is also named transformer. 
 
 * DNN.py
 
