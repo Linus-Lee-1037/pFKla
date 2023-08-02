@@ -1,5 +1,5 @@
-# iFKla
-inference of Functional lysine lactylation sites 
+# pFKla
+prediction of Functional lysine lactylation sites 
 
 We developed a new hybrid-learning model for functional laysin lactylation sites prediction. We defined a lactylation site peptide LSP(m, n) as a lactylation residue flanked by upstream m residues and downstream n residues, and LSP(10, 10) was chosen in this study for rapid training. We first encoded an LSP(10, 10) peptide into 11 kinds of 1D feature vectors, then for each feature we had a particular DNN model to predict and get score so that we had 11 scores for one Kla site. Finally we use another DNN model named integrated DNN to summarize those 11 scores to give a final score in order to predict a Kla site is functional or not. 
 
